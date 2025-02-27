@@ -1,0 +1,15 @@
+resolver: lts-20.0
+
+packages:
+- '.'
+
+extra-deps:
+- readable-0.3.1@sha256:13b71e63627c21447a35fe4441154410c96ba1f241cf0353692883d0eebf2085,1127
+- snap-core-1.0.5.1@sha256:0c2f6cbdf2ce5ebb7916444a2a421b185693732e4276a87e07dea40c552a8569,9820
+- snap-server-1.1.2.1@sha256:3ed4373b3bc4a0f2d59752557dfa0f4caf1a198322451350b7cf6ae757b7eb42,15464
+
+flags:
+  regex-posix:
+    _regex-posix-clib: true
+
+extra-package-dbs: []
